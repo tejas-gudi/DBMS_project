@@ -16,7 +16,7 @@ $sem = $_POST['sem'];
 $sem = (string)$sem;
 $full_name=$fname." ".$lname; //full_name is first_name + white_space + last_name.
 
-$con = mysqli_connect("localhost", "root", "", "test");
+$con = mysqli_connect("localhost", "root", "tmg07/11/2002", "test");
 
 if(!$con){
     die('error in connection'.mysqli_error);

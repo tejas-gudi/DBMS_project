@@ -11,7 +11,7 @@
         $sem = $_POST['select_sem'];
         echo "<h3>Select subject</h3>";
         //$sem_post = $_POST['select_sem'];
-        $con=mysqli_connect("localhost","root","", "test");
+        $con=mysqli_connect("localhost","root","tmg07/11/2002", "test");
         $sem=mysqli_query($con,"select subject from sem_subs where sem = '$sem';");
         echo"<select name = 'sub' id='sub'>";
         

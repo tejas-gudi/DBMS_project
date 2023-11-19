@@ -9,7 +9,7 @@
 
 <?php
 $file = $_GET['file'];
-$conn=mysqli_connect("localhost","root","","test");
+$conn=mysqli_connect("localhost","root","tmg07/11/2002","test");
 $query = "delete from uploaded_files where file_disp_name = '$file'";
 // mysqli_query($conn,"delete from uploaded_files where file_disp_name = '$file'");
 

@@ -12,7 +12,7 @@
     echo "   </section>";
 
     session_start();
-    $con=mysqli_connect("localhost","root","", "test");
+    $con=mysqli_connect("localhost","root","tmg07/11/2002", "test");
     echo "<div class='header'>";
     $uname = $_SESSION['username'];
     echo "<h2>welcome $uname</h2>";

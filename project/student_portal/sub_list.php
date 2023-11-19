@@ -16,7 +16,7 @@
             </tr>
 <?php
 $sub=$_GET['nm'];
-$con=mysqli_connect("localhost","root","","test");
+$con=mysqli_connect("localhost","root","tmg07/11/2002","test");
 $query=mysqli_query($con,"select * from uploaded_files where subject='$sub';");
 while($row = mysqli_fetch_array($query)){
     $link=$row['location'];

@@ -8,7 +8,7 @@
 
 session_start();
 $email = $_SESSION['email'];
-$con = mysqli_connect("localhost", "root", "", "test");
+$con = mysqli_connect("localhost", "root", "tmg07/11/2002", "test");
 mysqli_query($con, "insert into stat_teacher(email, action) values('$email', 'logout');");
 
 session_unset();

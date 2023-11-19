@@ -32,7 +32,7 @@ $ext = end($ext_seperator);
 
 $file_name = $ext_seperator[0];
 
-$conn=mysqli_connect("localhost","root","","test");
+$conn=mysqli_connect("localhost","root","tmg07/11/2002","test");
 $sem = mysqli_fetch_array((mysqli_query($conn,"select sem from sem_subs where subject = '$subject'")));
 $semester = $sem[0];
 

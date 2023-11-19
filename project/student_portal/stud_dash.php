@@ -9,7 +9,7 @@
         session_start();
         $reg = $_SESSION['reg_no'];
         $stud_name = $_SESSION['username'];
-        $con=mysqli_connect("localhost","root","","test");
+        $con=mysqli_connect("localhost","root","tmg07/11/2002","test");
         //$sem="1";
         $sem=mysqli_query($con,"select sem from student_login where reg_no='$reg';");
         $sem = mysqli_fetch_array($sem);

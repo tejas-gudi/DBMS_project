@@ -11,7 +11,7 @@
     $email = $_POST['email'];
     $pass = $_POST['pass'];
     $query;
-    $con=mysqli_connect("localhost","root","");
+    $con=mysqli_connect("localhost","root","tmg07/11/2002");
     if(!$con){
         die('error in connection'.mysqli_error());
     }
