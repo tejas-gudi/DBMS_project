@@ -4,7 +4,7 @@
 </head>
     <body>
         <div class="info">
-        <a href= '/DIPDOX/project/slidebar/home.php'><button>Back</button></a>
+        <a href= '/DIPDOX/project/student_portal/stud_dash.php'><button>Back</button></a>
         <h1>Notes uploaded by teachers!</h1>
         <center><table border="1">
             <tr>

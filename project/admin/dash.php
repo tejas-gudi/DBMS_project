@@ -14,7 +14,7 @@
 </tr>
 
 <?php
-$con=mysqli_connect("localhost","root","","test");
+$con=mysqli_connect("localhost","root","tmg07/11/2002","test");
 if(!$con)
 {
 die('error in connection'.mysqli_error());

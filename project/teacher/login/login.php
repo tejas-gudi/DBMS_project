@@ -36,7 +36,7 @@
             $_SESSION['email']=$email;
             $_SESSION['username']=$row[0];
             
-            $con = mysqli_connect("localhost", "root", "", "test");
+            $con = mysqli_connect("localhost", "root", "tmg07/11/2002", "test");
             mysqli_query($con, "insert into stat_teacher(email, action) values('$email', 'login');");
             
             header("Location: /DIPDOX/project/teacher/teacher_portal/success.php");

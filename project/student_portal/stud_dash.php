@@ -28,7 +28,9 @@
            echo"<a href ='sub_list.php?nm=$sub'><input type='button' value='$sub'> </a>";
            echo"<br>";
            //$i++;
-        }  
+        }
+        echo"<a href ='other_subs.php?nm=$sem[0]'><input type='button' value='other subjects'> </a>";  
+        echo"<br>";
         echo "<a href = '/DIPDOX/project/slidebar/home.php'>Back to home</a>"
         //function myfunction($sub){
             //echo"$sub";

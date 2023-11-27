@@ -9,7 +9,7 @@
 
 <?php
 
-$con = mysqli_connect("localhost", "root", "", "test");
+$con = mysqli_connect("localhost", "root", "tmg07/11/2002", "test");
 $res = mysqli_query($con, "select * from stat_student;");
 echo "<table border='1'>";
 echo "<tr><th>Sl.No.</th><th>User</th><th>Action</th><th>Date/Time</th></tr>";
